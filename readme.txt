@@ -2,11 +2,9 @@ Question A：
 
 [compile]
 F74004046@2015cpp:~/lab4$ vim lab4-a.cpp
-F74004046@2015cpp:~/lab4$ g++ -o lab4 lab4-a.cpp
-F74004046@2015cpp:~/lab4$ ls
-lab4  lab4-a.cpp  readme.txt
-F74004046@2015cpp:~/lab4$ ./lab4
-F74004046@2015cpp:~/lab4$ nm lab4
+F74004046@2015cpp:~/lab4$ g++ -o lab4-a lab4-a.cpp
+F74004046@2015cpp:~/lab4$ ./lab4-a
+F74004046@2015cpp:~/lab4$ nm lab4-a
 
 [output]
 0000000000600e50 d _DYNAMIC
