@@ -1,5 +1,14 @@
-A.
+Question A：
 
+[compile]
+F74004046@2015cpp:~/lab4$ vim lab4-a.cpp
+F74004046@2015cpp:~/lab4$ g++ -o lab4 lab4-a.cpp
+F74004046@2015cpp:~/lab4$ ls
+lab4  lab4-a.cpp  readme.txt
+F74004046@2015cpp:~/lab4$ ./lab4
+F74004046@2015cpp:~/lab4$ nm lab4
+
+[output]
 0000000000600e50 d _DYNAMIC
 0000000000600fe8 d _GLOBAL_OFFSET_TABLE_
 0000000000400608 R _IO_stdin_used
@@ -35,10 +44,6 @@ A.
 0000000000601020 b dtor_idx.6533
 0000000000400490 t frame_dummy
 000000000040050a T main
-
-F74021080@2014cpp:~/week6$ nm week6 |grep average
-00000000004004b4 T _Z7averagePdRd
-00000000004004e2 T _Z7averageif
 
 
 B.
