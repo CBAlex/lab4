@@ -46,13 +46,21 @@ F74004046@2015cpp:~/lab4$ nm lab4
 000000000040050a T main
 
 
-B.
+QuestionB：
 
+[compile]
+
+F74004046@2015cpp:~/lab4$ vim lab4-b.cpp
+F74004046@2015cpp:~/lab4$ g++ -o lab4-b lab4-b.cpp
+F74004046@2015cpp:~/lab4$ ./lab4-b
+
+[output]
 1 8
 4 8
 4 8
 8 8
 
+[explain]
 char 8 bit  / 因為伺服器的位址暫存器為 64 bit
 int 32 bit  / 因為伺服器的位址暫存器為 64 bit
 float 32 bit/ 因為伺服器的位址暫存器為 64 bit
